@@ -1,6 +1,16 @@
 # Desafio de Software
 
+# Instruções para executar a aplicação
+## Clone o repositório
+git clone 'git@github.com:JoaoPauloAntunes/desafio-software.git'
 
+## Executar os comandos na pasta raiz do repositório
+pip install pipenv
+pipenv install fastapi
+pipenv install --python 3.6 fastapi
+pipenv run software
+
+# Tarefas
 - [x] usar o framework FastAPI no servidor
 - [x] coletar >= 50 cores aleatórias da API Random Color
 - [x] usar os objetos de cores coletados para fazer um gráfico de ID da cor em função da posição da cor na lista
