@@ -5,10 +5,10 @@
 git clone 'git@github.com:JoaoPauloAntunes/desafio-software.git'
 
 ## Executar os comandos na pasta raiz do repositório
-pip install pipenv
+`pip install pipenv
 pipenv install fastapi
 pipenv install --python 3.6 fastapi
-pipenv run software
+pipenv run software`
 
 # Tarefas
 - [x] usar o framework FastAPI no servidor
