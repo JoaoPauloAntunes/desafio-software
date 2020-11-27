@@ -15,6 +15,9 @@ ou
 - `pipenv install --python 3.6 fastapi`
 - `pipenv run software`
 
+## Entre no endereço que o Uvicorn está executando
+http://0.0.0.0:5700 
+
 ---
 # Tarefas
 - [x] usar o framework FastAPI no servidor
