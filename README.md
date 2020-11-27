@@ -8,6 +8,7 @@ git clone 'git@github.com:JoaoPauloAntunes/desafio-software.git'
 - sudo -H pip3 install --upgrade pip
 - pip install fastapi
 - pip install pipenv
+- pip install uvicorn
 - pipenv install fastapi
 - pipenv install --python 3.6 fastapi
 - pipenv run software
