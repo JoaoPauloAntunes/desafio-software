@@ -6,7 +6,7 @@
 ou
 `git clone 'https://github.com/JoaoPauloAntunes/desafio-software.git'`
 
-## Executar os comandos na pasta raiz do repositório
+## Execute os comandos na pasta raiz do repositório
 - `sudo -H pip3 install --upgrade pip`
 - `pip install fastapi`
 - `pip install pipenv`
@@ -15,6 +15,7 @@ ou
 - `pipenv install --python 3.6 fastapi`
 - `pipenv run software`
 
+---
 # Tarefas
 - [x] usar o framework FastAPI no servidor
 - [x] coletar >= 50 cores aleatórias da API Random Color
