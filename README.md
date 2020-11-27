@@ -16,7 +16,7 @@ ou
 - `pipenv run software`
 
 ## Entre no endereço que o Uvicorn está executando
-http://0.0.0.0:5700 
+http://0.0.0.0:5700/
 
 ---
 # Tarefas
