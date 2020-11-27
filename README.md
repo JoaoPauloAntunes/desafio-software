@@ -5,6 +5,8 @@
 git clone 'git@github.com:JoaoPauloAntunes/desafio-software.git'
 
 ## Executar os comandos na pasta raiz do repositório
+- sudo -H pip3 install --upgrade pip
+- pip install fastapi
 - pip install pipenv
 - pipenv install fastapi
 - pipenv install --python 3.6 fastapi
