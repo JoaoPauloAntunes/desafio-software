@@ -45,10 +45,16 @@
           const isRed = porcRed >= 50;
 
           if (isRed) {
-            return [index, color.id, 'point { size: 3; shape-type: circle; fill-color: #ff0000; }', `Vermelho: ${porcRed.toFixed(2)}%`];
+            return [index, color.id, 'point { size: 3; shape-type: circle; fill-color: #ff0000; }', `
+                (${index}, ${color.id})
+                Vermelho: ${porcRed.toFixed(2)}%
+              `];
           }
 
-          return [index, color.id, null, `Vermelho: ${porcRed.toFixed(2)}%`];
+          return [index, color.id, null, `
+              (${index}, ${color.id})
+              Vermelho: ${porcRed.toFixed(2)}%
+            `];
         });
 
         google.charts.setOnLoadCallback(drawChart);
