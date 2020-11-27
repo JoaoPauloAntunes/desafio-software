@@ -7,13 +7,13 @@ ou
 `git clone 'https://github.com/JoaoPauloAntunes/desafio-software.git'`
 
 ## Executar os comandos na pasta raiz do repositório
-- sudo -H pip3 install --upgrade pip
-- pip install fastapi
-- pip install pipenv
-- pip install uvicorn
-- pipenv install fastapi
-- pipenv install --python 3.6 fastapi
-- pipenv run software
+- `sudo -H pip3 install --upgrade pip`
+- `pip install fastapi`
+- `pip install pipenv`
+- `pip install uvicorn`
+- `pipenv install fastapi`
+- `pipenv install --python 3.6 fastapi`
+- `pipenv run software`
 
 # Tarefas
 - [x] usar o framework FastAPI no servidor
