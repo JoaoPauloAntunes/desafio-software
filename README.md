@@ -2,7 +2,9 @@
 
 # Instruções para executar a aplicação
 ## Clone o repositório
-git clone 'git@github.com:JoaoPauloAntunes/desafio-software.git'
+`git clone 'git@github.com:JoaoPauloAntunes/desafio-software.git'`
+ou
+`git clone 'https://github.com/JoaoPauloAntunes/desafio-software.git'`
 
 ## Executar os comandos na pasta raiz do repositório
 - sudo -H pip3 install --upgrade pip
